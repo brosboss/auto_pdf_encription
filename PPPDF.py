@@ -3,7 +3,7 @@ from PyPDF2 import PdfFileWriter, PdfFileReader
 
 
 pdfwriter = PdfFileWriter() # creating a pdf writer object
-pdf = PdfFileReader("waste_pdf.pdf")# crate an object of the pdf you intend to duplicate and encript
+pdf = PdfFileReader("source.pdf")# crate an object of the pdf you intend to duplicate and encript
 
 #for each page in the pdf we intend to write from
 #we add each page to the pdf writer object created
